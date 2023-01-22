@@ -52,6 +52,12 @@
         margin-right: auto;
     }
 
+    .project-article {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+    }
+
     .puzzle-sect {
         display: block;
     }
