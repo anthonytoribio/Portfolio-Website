@@ -6,40 +6,39 @@ WRITTEN BY: Anthony Toribio
 EMAIL: toribioaatucidotedu
 -->
 
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Anthony Toribio">
-  <meta name="description" content="description of your page">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <!-- you would link to an external stylesheet here! -->
-   <link rel="stylesheet" href="index.css">
-   <!-- you would also link to Bootstrap here! -->
-  <title>Anthony Toribio's Portfolio</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Anthony Toribio">
+    <meta name="description" content="description of your page">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- you would link to an external stylesheet here! -->
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- you would also link to Bootstrap here! -->
+    <title>Anthony Toribio's Portfolio</title>
+  </head>
 
-<body>
-  <div class="NavBar">
-    <div class="nav-links">
-      <a class="nav-link" href="./index.html">About</a>
-      <a class="nav-link" href="./projects.html">Projects</a>
-      <a class="nav-link" href="./contact.html">Contact</a>
-    </div>
-    <div class="nav-medias">
-      <a class="nav-media" target="_blank" href="https://github.com/anthonytoribio"><img src="./github-mark-white.png" alt="Image of Github Logo" width="30px"/></a>
-      <a class="nav-media" target="_blank" href="https://www.linkedin.com/in/anthony-toribio/"><img src="./In-White-40.png" alt="Image of LinkedIn logo" width="30px"/></a>
-    </div>
-  </div> 
-  <div class="intro">
-    <img src="./github-mark-white.png" style="max-height: 200px; max-width: 200px;"/>
-    <div class="intro-text">
-      <h1 id="greeting-header">Hi. I'm Anthony.</h1>
-      <p class="about-text" id="about">I’m currently a 3rd year at the University of California Irvine, majoring in Computer Science.</p> 
-      <p class="about-text">Lately I’ve been working with React and Kotlin/Android Studio to 
-          create web apps and android apps respectively.</p>
-      <p class="about-text">Outside of school and side projects, you’ll find me running 
-        (I’m currently training for a marathon), 
-        fiddling with the guitar, or hanging out with friends.</p>
-    </div>
-  </div> 
-</body>
+  <body>
+    <nav class="NavBar">
+      <ul class="nav-links">
+        <li class="nav-link"><a href="./index.html">About</a></li>
+        <li class="nav-link"><a href="./projects.html">Projects</a></li>
+        <li class="nav-link"><a href="./contact.html">Contact</a></li>
+        <li class="nav-medias"><a target="_blank" href="https://github.com/anthonytoribio"><img src="./res/github-mark-white.png" alt="Image of Github Logo" width="25px"/></a></li>
+        <li class="nav-medias"><a target="_blank" href="https://www.linkedin.com/in/anthony-toribio/"><img src="./res/In-White-40.png" alt="Image of LinkedIn logo" width="25px"/></a></li>
+      </ul>
+    </nav> 
+    <div class="intro">
+      <img src="./res/uci id.jpg" alt="Image of Anthony" id="portrait"/>
+      <article class="intro-text">
+        <h1 id="greeting-header">Hi. I'm Anthony.</h1>
+        <p class="about-text" id="about">I’m currently a 3rd year at the University of California Irvine, majoring in Computer Science.</p> 
+        <p class="about-text">Lately I’ve been working with React and Kotlin/Android Studio to 
+            create web apps and android apps respectively.</p>
+        <p class="about-text">Outside of school and side projects, you’ll find me running 
+          (I’m currently training for a marathon), 
+          fiddling with the guitar, or hanging out with friends.</p>
+      </article>
+    </div> 
+  </body>
 </html>

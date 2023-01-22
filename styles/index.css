@@ -1,0 +1,67 @@
+.intro {
+    /* border: 1px dotted dodgerblue; */
+    /* justify-self:center; */
+    /* padding-top: 26vh; */
+    display: flex;
+    justify-content: center;
+    padding-top: 29vh;
+}
+
+#portrait {
+    max-width: 325px;
+    max-height: 270px;
+}
+
+.intro-text {
+    /* border: 1px dotted red; */
+    margin-left: 25px;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        display: block;
+        margin-right: 15px;
+        padding-top: 10vh;
+        justify-content: center;
+
+    }
+    #portrait {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .intro-text {
+       margin-left: auto;
+       margin-right: auto;
+       padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .intro-text {
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+}
+
+#greeting-header {
+    font-size: 2.5em;
+    margin: 0px;
+    background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
+    background-color: #111111;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#about {
+    margin-top: 8px;
+}
+
+.about-text {
+    word-spacing: 2px;
+    line-height: 23px;
+    font-size: 1.1em;
+}

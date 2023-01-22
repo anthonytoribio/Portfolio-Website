@@ -1,0 +1,72 @@
+.project-sect {
+    /* border: 1px solid dodgerblue; */
+    height: 50%;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#project-header {
+    margin: 0px;
+    background: linear-gradient(271deg, #a0e9ff 50%, #a162e8 60%, #f093b0 90%, #edca85 70%);
+    background-color: #111111;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.9em;
+}
+
+#project-header-desc {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.yt-sect {
+    /* border: 1px red solid; */
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-article {
+    max-width: 27vw;
+    margin-left: 15px;
+}
+
+.puzzle-sect {
+    /* border: 1px solid peru; */
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .yt-sect {
+        display: block;
+    }
+    #yt-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .puzzle-sect {
+        display: block;
+    }
+
+    #puzzle-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .project-article {
+        max-width: 320px;
+    }
+}
+
+

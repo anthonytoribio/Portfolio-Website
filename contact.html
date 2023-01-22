@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Anthony Toribio">
+        <meta name="description" content="Page that contains a form in other to contact Anthony">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- you would link to an external stylesheet here! -->
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/contact.css">
+        <!-- you would also link to Bootstrap here! -->
+        <title>Anthony Toribio's Portfolio</title>
+    </head>
+    <body>
+        <nav class="NavBar">
+            <ul class="nav-links">
+                <li class="nav-link"><a href="./index.html">About</a></li>
+                <li class="nav-link"><a href="./projects.html">Projects</a></li>
+                <li class="nav-link"><a href="./contact.html">Contact</a></li>
+                <li class="nav-medias"><a target="_blank" href="https://github.com/anthonytoribio"><img src="./res/github-mark-white.png" alt="Image of Github Logo" width="25px"/></a></li>
+                <li class="nav-medias"><a target="_blank" href="https://www.linkedin.com/in/anthony-toribio/"><img src="./res/In-White-40.png" alt="Image of LinkedIn logo" width="25px"/></a></li>
+            </ul>
+        </nav>
+        <div class="contact-div">
+            <h1 id="contact-header">Contact</h1>
+            <h4 id="contact-header-desc">Contact me with any questions or concerns.</h4>
+        </div>
+        <section class="contact-sect">
+            <form class="contact-form">
+                <label for="name" class="form-label">Enter your name:</label>
+                <br>
+                <input type="text" id="name" name="name" class="text-box">
+                <br>
+                <label for="email" class="form-label">Email:</label>
+                <br>
+                <input type="text" id="email" name="email" class="text-box">
+                <br>
+                <label for="subject" class="form-label">Subject:</label>
+                <br>
+                <input type="text" id="subject" name="subject" class="text-box">
+                <br>
+                <label for="message" class="form-label">Message:</label>
+                <br>
+                <textarea type="message" id="message" name="message" rows="10"></textarea>
+                <br>
+                <button type="submit" id="form-submit">Submit</button>
+            </form>
+        </section>
+    </body>
+
+</html>
