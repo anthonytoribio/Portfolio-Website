@@ -11,39 +11,45 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */14
-- */1 Readme
-- */3 Basic HTML content
-- */3 Basic CSS styling
-- */1 Advanced feature
-- */3 Responsive layout
+- 1/1 Readme
+- 3/3 Basic HTML content
+- 3/3 Basic CSS styling
+- 1/1 Advanced feature
+- 3/3 Responsive layout
 - */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+    * Images with descriptive alt attributes
+    * Appropriate headings and paragraph texts
+    * Links to external pages
+    * Multiple pages with, with naviagtion between them
 
 
 (b) CSS features
-
+    * Modified padding and margin to make content readable
+    * Modified text color and other colors to make it visually appealing
 
 
 (c) Advanced features
-
+    * A contact form which leverages HTML forms
+    * Leveraging nested selectors to specify format
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+    10 hours
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-
+    https://cssgradient.io/blog/css-gradient-text/
+    
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+    N/A
 
 
 6. Is there anything special we need to know in order to run your code?
-
+    N/A
